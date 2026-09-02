@@ -1,6 +1,6 @@
 ---
-flavor: PResolver
-topic: Flavor Topic Combination
+flavor: presolver
+topic: flavor-topic-combination
 ---
 
 # NContinuity + Historia
@@ -57,8 +57,8 @@ Un documento sobre la historia de una obra que use NContinuity debe declarar:
 
 ```yaml
 ---
-flavor: NContinuity
-topic: Historia
+flavor: ncontinuity
+topic: historia
 ---
 ```
 
