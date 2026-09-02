@@ -1,6 +1,6 @@
 ---
-flavor: PResolver
-topic: Flavor and Topic Registry
+flavor: presolver
+topic: flavor-and-topic-registry
 ---
 
 # Registro de Flavor y Topic
@@ -9,38 +9,41 @@ Este documento define los valores reconocidos actualmente para `flavor` y los `t
 
 La intención es que ambos campos sean vocabularios controlados. Si una necesidad real no cabe en ellos, debe registrarse la tensión y evaluar una extensión del registro en vez de inventar silenciosamente un valor nuevo.
 
+Los valores canónicos del front matter se escriben en minúsculas y con guiones cuando contienen más de una palabra.
+
 ## Flavors reconocidos
 
-### PResolver
+### `presolver`
 
 Herramienta de coordinación. Define reglas para elegir, combinar, relacionar y evaluar flavors y topics.
 
 Topics válidos actuales:
 
-- `Project Rules`
-- `Flavor and Topic Registry`
-- `Flavor Definition`
-- `Pending Concept`
-- `Flavor Topic Combination`
+- `project-rules`
+- `flavor-and-topic-registry`
+- `flavor-definition`
+- `pending-concept`
+- `flavor-topic-combination`
+- `metroid-prism`
 
-### NContinuity
+### `ncontinuity`
 
 Herramienta para expresar realidad ficcional y continuidad: qué existe, cómo funciona, qué ocurrió y qué persiste o cambia dentro del universo.
 
 Topics válidos actuales:
 
-- `Historia`
-- `Worldbuilding`
+- `historia`
+- `worldbuilding`
 
 Estos topics son iniciales y deberán tensionarse contra el material real.
 
-### IEnacta
+### `ienacta`
 
 Herramienta para expresar experiencia interactiva.
 
 Todavía no posee topics validados. Deben emerger del estudio de las obras.
 
-### VSlices
+### `vslices`
 
 Herramienta para expresar materialización técnica.
 
@@ -52,9 +55,9 @@ Cada combinación validada de `flavor` y `topic` debe tener un documento propio 
 
 Actualmente se reconoce:
 
-- `NContinuity + Historia`
+- `ncontinuity + historia`
 
-`NContinuity + Worldbuilding` se reconoce provisionalmente como combinación posible por la definición actual de NContinuity, pero debe documentarse como combinación sólo cuando el análisis de Metroid nos obligue a precisar sus fronteras.
+`ncontinuity + worldbuilding` se reconoce provisionalmente como combinación posible por la definición actual de NContinuity, pero debe documentarse como combinación sólo cuando el análisis de Metroid nos obligue a precisar sus fronteras.
 
 ## Extensión del registro
 
