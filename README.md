@@ -1,6 +1,6 @@
 ---
-flavor: PResolver
-topic: Metroid Prism
+flavor: presolver
+topic: metroid-prism
 ---
 
 # Metroid Prism
