@@ -1,6 +1,6 @@
 ---
-flavor: PResolver
-topic: Project Rules
+flavor: presolver
+topic: project-rules
 ---
 
 # Reglas base de Metroid Prism
@@ -13,10 +13,12 @@ Todo archivo Markdown del proyecto debe declarar al inicio:
 
 ```yaml
 ---
-flavor: <Flavor usado principalmente>
-topic: <Topic validado para ese Flavor>
+flavor: <flavor-validado>
+topic: <topic-validado-para-el-flavor>
 ---
 ```
+
+Los valores canónicos del front matter se escriben en minúsculas y con guiones cuando contienen más de una palabra.
 
 - **flavor** indica qué herramienta de representación guía principalmente el documento.
 - **topic** indica qué clase de asunto se está expresando mediante esa herramienta.
@@ -25,7 +27,7 @@ Los valores no deben tratarse como texto libre. Los valores reconocidos y sus co
 
 La declaración de un Flavor no convierte al Topic en parte de ese Flavor. El Topic pertenece al objeto estudiado; el Flavor es solamente la perspectiva utilizada para expresarlo.
 
-Los documentos de coordinación, definición de reglas o estudio de los propios flavors pueden utilizar `flavor: PResolver`.
+Los documentos de coordinación, definición de reglas o estudio de los propios flavors pueden utilizar `flavor: presolver`.
 
 Un documento puede apoyarse en otros flavors, incluidos flavors todavía hipotéticos, cuando ayuden a expresar correctamente el Topic. Esa utilización debe quedar explícita en el contenido y no implica que el Flavor hipotético haya sido validado como abstracción definitiva.
 
