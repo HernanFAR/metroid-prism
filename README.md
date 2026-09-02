@@ -1,3 +1,8 @@
+---
+flavor: PResolver
+topic: Metroid Prism
+---
+
 # Metroid Prism
 
 Metroid Prism es un estudio del universo y las obras de Metroid apoyado por múltiples herramientas de representación.
