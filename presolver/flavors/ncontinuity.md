@@ -1,3 +1,8 @@
+---
+flavor: PResolver
+topic: NContinuity
+---
+
 # NContinuity
 
 NContinuity es un Flavor coordinado por PResolver para ayudar a expresar la **realidad ficcional** de un universo y su continuidad.
