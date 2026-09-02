@@ -1,3 +1,8 @@
+---
+flavor: PResolver
+topic: Work Narrative
+---
+
 # Work Narrative
 
 **Estado:** concepto pendiente, no es un Flavor oficial.
@@ -43,5 +48,7 @@ Cuando una obra requiera documentar su narrativa:
 2. utilizar NContinuity, IEnacta u otros flavors como herramientas de apoyo cuando aporten perspectivas relevantes;
 3. no reducir la narrativa a ninguno de esos flavors;
 4. registrar tensiones o necesidades expresivas que las herramientas actuales no puedan representar bien.
+
+Un futuro documento podrá incluso experimentar con un Flavor hipotético orientado a narrativa si eso ayuda a expresar mejor el problema. Ese uso será exploratorio: deberá aportar evidencia sobre si la abstracción merece existir o si está sobre-abstrayendo algo que otras herramientas ya representan adecuadamente.
 
 La forma de esas tensiones permitirá decidir más adelante si la narrativa de obra necesita un Flavor propio, varias herramientas complementarias o una abstracción diferente.
