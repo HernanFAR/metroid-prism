@@ -1,6 +1,6 @@
 ---
-flavor: PResolver
-topic: Work Narrative
+flavor: presolver
+topic: pending-concept
 ---
 
 # Work Narrative
