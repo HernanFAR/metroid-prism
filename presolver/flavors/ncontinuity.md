@@ -1,6 +1,6 @@
 ---
-flavor: PResolver
-topic: NContinuity
+flavor: presolver
+topic: flavor-definition
 ---
 
 # NContinuity
